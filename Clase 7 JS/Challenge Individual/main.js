@@ -1,3 +1,5 @@
+// Practica
+
 // let numeros = [15, 2, 35, 4, 5, 16, 7, 8, 10]
 // let numerosMayoresADiez = []
 
@@ -18,6 +20,8 @@
 //     });
 // });
 
+//-----------------------------------------------------//
+
 //Consigna 1
 // let meses = [
 //   "Enero",
@@ -34,11 +38,15 @@
 //   "Diciembre",
 // ];
 
+// meses.forEach(element => {
+//     console.log(element);
+// });
+
 // console.log(meses);
 
 //Consigna 2
 
-// function numeroParOImpar(num) {
+//  let numeroParOImpar = (num => {
 //   if (num % 2 == 0) {
 //     console.log("Es Par");
 //   }
@@ -46,16 +54,14 @@
 //   {
 //     console.log("Es Impar");
 //   }
-// }
+// })
 
 // numeroParOImpar(5);
 
 //Consigna 3
-
+// const prompt = require("prompt-sync")({ sigint: true});
 // var array = [];
-// array.push(prompt("Ingresa una palabra"));
-
-// console.log(array);
+// array.push(prompt("Ingresa una palabra: "));
 
 // array.forEach((element) => {
 //   if (element== element.toUpperCase()) {
@@ -67,6 +73,8 @@
 //     console.log("Hay minusculas y mayusculas");
 //   }
 // });
+
+
 
 //Consigna 4
 // Realizado con while
