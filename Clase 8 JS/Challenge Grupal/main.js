@@ -63,12 +63,12 @@ do {
 } while (decision != "0");
 
 function agregarUser(agenda) {
-//   let usuarios = [];
-    let dni = parseInt(prompt("Ingresar DNI: "));
-  let nombre=prompt("Ingresar Nombre: ")
-  let apellido =prompt("Ingresar Apellido: ")
-  let telefono =parseInt(prompt("Ingresar Telefono: "))
-  let usuarios = {dni,nombre,apellido,telefono};
+  //   let usuarios = [];
+  let dni = parseInt(prompt("Ingresar DNI: "));
+  let nombre = prompt("Ingresar Nombre: ");
+  let apellido = prompt("Ingresar Apellido: ");
+  let telefono = parseInt(prompt("Ingresar Telefono: "));
+  let usuarios = { dni, nombre, apellido, telefono };
   agenda.push(usuarios);
 }
 
@@ -79,11 +79,11 @@ function eliminarContacto(dni) {
 }
 
 function verPersona(dni) {
-//   let eleccionContacto = agenda.find((elemento) => elemento.dni === dni);
+  //   let eleccionContacto = agenda.find((elemento) => elemento.dni === dni);
   let indiceContacto = 0;
   agenda.forEach((element) => {
-    if(element.dni === parseInt(dni)){
-    indiceContacto = agenda.indexOf(element);
+    if (element.dni === parseInt(dni)) {
+      indiceContacto = agenda.indexOf(element);
     }
   });
   console.log(agenda[indiceContacto]);

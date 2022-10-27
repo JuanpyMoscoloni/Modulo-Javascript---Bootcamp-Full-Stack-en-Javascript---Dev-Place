@@ -75,34 +75,34 @@
 
 // }
 
-class tareas{
-    id;
-    titulo;
-    completado;
-    fecha_creado;
+// class tareas{
+//     id;
+//     titulo;
+//     completado;
+//     fecha_creado;
 
-    constructor(id, titulo,completado,fecha_creado){
-        this.id = id;
-        this.titulo = titulo;
-        this.completado = completado;
-        this.fecha_creado = fecha_creado;
-    }
+//     constructor(id, titulo,completado,fecha_creado){
+//         this.id = id;
+//         this.titulo = titulo;
+//         this.completado = completado;
+//         this.fecha_creado = fecha_creado;
+//     }
 
-    tarea1(){
-        id: 1;
-        titulo: "Lavar Platos";
-        completado: false;
-        fecha_creado: "26/10/2022";
-    }
+//     tarea1(){
+//         id: 1;
+//         titulo: "Lavar Platos";
+//         completado: false;
+//         fecha_creado: "26/10/2022";
+//     }
 
-}
+// }
 
-function crearAlbum(genero, titulo, nombreBanda)
-{
-    let album =  {
-        gender: genero,
-        title: titulo,
-        nombre: nombreBanda
-    }
-    return album;
-}
+// function crearAlbum(genero, titulo, nombreBanda)
+// {
+//     let album =  {
+//         gender: genero,
+//         title: titulo,
+//         nombre: nombreBanda
+//     }
+//     return album;
+// }
