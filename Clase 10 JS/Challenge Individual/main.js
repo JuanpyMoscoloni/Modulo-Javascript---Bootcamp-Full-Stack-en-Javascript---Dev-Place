@@ -109,18 +109,25 @@ class PersonalServicio extends Empleados {
 
 let lista = [];
 
-let estudiante = new Estudiantes('Juanpy', 'Moscoloni', '44335612','Soltero','3');
-let estudiante1 = new Estudiantes('Lucas', 'Pereyra', '44271923','Casado','5');
-estudiante1.nuevaClase('2');
+let estudiante = new Estudiantes('Juanpy', 'Moscoloni', 44335612,'Soltero',3);
+let estudiante1 = new Estudiantes('Lucas', 'Pereyra', 44271923,'Casado',5);
+estudiante1.nuevaClase(2);
 lista.push(estudiante,estudiante1);
 console.table(lista);
 
 let listaProfesor = [];
 
-let profesor = new Profesores('Jazmin', 'Jirafales', '20123422','Casado','2020','2','5');
-profesor.nuevoDepartamento('2');
+let profesor = new Profesores('Jazmin', 'Jirafales', 20123422,'Casado','2020',2,5);
+profesor.nuevoDepartamento(2);
 listaProfesor.push(profesor);
 console.table(listaProfesor);
+
+let listaPersonal = [];
+
+let personalServicio = new PersonalServicio('Norberto','Jimenez',6777282,'Soltero',2010,4,'Biblioteca');
+personalServicio.nuevaSeccion(8);
+listaPersonal.push(personalServicio);
+console.table(listaPersonal);
 
 
 // let cursito = new Curso('7');
