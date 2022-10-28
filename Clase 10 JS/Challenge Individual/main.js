@@ -117,15 +117,15 @@ console.table(lista);
 
 let listaProfesor = [];
 
-let profesor = new Profesores('Jazmin', 'Jirafales', 20123422,'Casado','2020',2,5);
-profesor.nuevoDepartamento(2);
+let profesor = new Profesores('Jazmin', 'Jirafales', 20123422,'Casado',2020,2,5);
+profesor.nuevoDepartamento(5);
 listaProfesor.push(profesor);
 console.table(listaProfesor);
 
 let listaPersonal = [];
 
 let personalServicio = new PersonalServicio('Norberto','Jimenez',6777282,'Soltero',2010,4,'Biblioteca');
-personalServicio.nuevaSeccion(8);
+personalServicio.nuevaSeccion('Programador');
 listaPersonal.push(personalServicio);
 console.table(listaPersonal);
 
