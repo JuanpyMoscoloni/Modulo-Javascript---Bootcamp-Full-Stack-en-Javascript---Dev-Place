@@ -14,7 +14,7 @@ const cargarPost = async () => {
         columna.classList.add("col-3", "p-3");
         let card = document.createElement("div");
         card.classList.add("card", "p-1");
-        let cardBody = document.createElement("div");   
+        let cardBody = document.createElement("div");
         cardBody.classList.add("card-body");
         let p = document.createElement("h5");
         p.classList.add("card-title");
@@ -56,7 +56,6 @@ const cargarComentarios = async (id) => {
     const respuesta = await fetch(urlcomments);
     if (respuesta.ok) {
       const datos = await respuesta.json();
-      cargarPost();
       const comentarios = document.getElementById("comments");
       comentarios.innerHTML = "";
       datos.forEach((element) => {
