@@ -1,0 +1,4 @@
+// Generar un documento de texto y explicar cada patrón de diseño visto y crear y resolver 2 ejercicios de cada uno.
+// DOM. usar DOM donde se considere necesario para su sitio web.
+
+
